@@ -17,3 +17,27 @@ html {
 *, *::before, *::after {
   box-sizing: inherit;
 }
+
+@@media only screen and (min-width: 38em) {
+
+}
+
+figure {
+  display: inline-block;
+  background-color: #e2e2e2;
+  margin: 0;
+  text-decoration: none;
+}
+
+img {
+  display: flex;
+  max-width: 100%;
+}
+
+h1 {
+  font-family: 'Denk One', sans-serif;
+}
+
+@@media only screen and (min-width: 60em) {
+
+}
