@@ -33,7 +33,7 @@ figure {
 }
 
 .img-flex {
-  display: flex;
+  display: block;
   max-width: 100%;
   width: 100%;
   position: relative;
@@ -48,99 +48,79 @@ figcaption {
 }
 
 @media (min-width: 38em) {
+html {  line-height: 1.4;  font-size: 110%}
+figure {  display: inline-block;  background-color: #e2e2e2;  margin: 0;  text-decoration: none;  position: relative;}
+.img-flex {  display: flex;  max-width: 100%;}
 
-  html {
-    line-height: 1.4;
-    font-size: 110%
-  }
+h2 {
+  font-family: 'Denk One', sans-serif;
+}
 
-  figure {
-    display: inline-block;
-    background-color: #e2e2e2;
-    margin: 0;
-    text-decoration: none;
-    position: relative;
-  }
+h2, p {
+  margin: 0 0 .5rem;
+}
 
-  .img-flex {
-    display: flex;
-    max-width: 100%;
-  }
-
-  h2 {
-    font-family: 'Denk One', sans-serif;
-  }
-
-  h2, p {
-    margin: 0 0 .5rem;
-  }
-
-  figcaption {
-    font-size: 110%;
-    position: absolute;
-    bottom: 2%;
-    right: 2%;
-    max-width: 300px;
-    color: #fff;
-    background-color: rgba(0, 0, 0, .3);
-    padding: 1em;
-    border-radius: 8px;
-  }
+figcaption {
+  font-size: 110%;
+  position: absolute;
+  bottom: 2%;
+  right: 2%;
+  max-width: 300px;
+  color: #fff;
+  background-color: rgba(0, 0, 0, .3);
+  padding: 1em;
+  border-radius: 8px;
 }
 
 @media (min-width: 60em) {
 
-  html {
-    line-height: 1.5rem;
-    font-size: 120%;
-  }
+html {
+  line-height: 1.5rem;
+  font-size: 120%;
+}
 
-  h2 {
-    font-family: 'Denk One', sans-serif;
-  }
+h2 {
+  font-family: 'Denk One', sans-serif;
+}
 
-  h2, p {
-    margin: 0 0 .5rem;
-  }
+h2, p {
+  margin: 0 0 .5rem;
+}
 
-  figcaption {
-    font-size: 1.3rem;
-    position: absolute;
-    bottom: 2%;
-    right: 2%;
-    max-width: 400px;
-    color: #fff;
-    background-color: rgba(0, 0, 0, .3);
-    padding: 1em;
-    border-radius: 8px;
-  }
-
+figcaption {
+  font-size: 1.3rem;
+  position: absolute;
+  bottom: 2%;
+  right: 2%;
+  max-width: 400px;
+  color: #fff;
+  background-color: rgba(0, 0, 0, .3);
+  padding: 1em;
+  border-radius: 8px;
 }
 
 @media (min-width: 90em) {
 
-  html {
-    font-size: 120%;
-  }
+html {
+  font-size: 120%;
+}
 
-  h2 {
-    font-family: 'Denk One', sans-serif;
-  }
+h2 {
+  font-family: 'Denk One', sans-serif;
+}
 
-  h2, p {
-    margin: 0 0 .5rem;
-  }
+h2, p {
+  margin: 0 0 .5rem;
+}
 
-  figcaption {
-    font-size: 1.5rem;
-    position: absolute;
-    bottom: 2%;
-    right: 2%;
-    max-width: 400px;
-    color: #fff;
-    background-color: rgba(0, 0, 0, .3);
-    padding: 1em;
-    border-radius: 8px;
-  }
-
+figcaption {
+  font-size: 1.5rem;
+  position: absolute;
+  bottom: 2%;
+  right: 2%;
+  max-width: 400px;
+  color: #fff;
+  background-color: rgba(0, 0, 0, .3);
+  padding: 1em;
+  border-radius: 8px;
 }
